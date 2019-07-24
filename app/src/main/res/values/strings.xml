@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Talon</string>
+    <string name="registration_title">Регистрация</string>
+    <string name="reg_edit_text_phone">Номер телефона</string>
+    <string name="reg_edit_text_password">Пароль</string>
+    <string name="registration_btn_text">Продолжить</string>
+    <string name="user_info_title">Как вас зовут?</string>
+    <string name="user_info_et_name">Имя</string>
+    <string name="user_info_et_family">Фамилия</string>
+    <string name="user_info_et_patronymic">Отчество</string>
+    <string name="user_info_btn_text">Войти</string>
+</resources>
