@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_background"
             android:hint="@string/user_info_et_name"
-            android:layout_marginTop="63dp"
+            android:layout_marginTop="37dp"
             style="@style/etText"
             android:paddingStart="22dp"
             app:layout_constraintEnd_toEndOf="parent"

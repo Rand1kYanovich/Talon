@@ -9,6 +9,7 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import ru.codeoverflow.talon.R
+import ru.codeoverflow.talon.util.FragmentUtil
 import ru.codeoverflow.talon.viewmodel.RegistrationViewModel
 
 class UserInfoFragment : Fragment() {
@@ -30,7 +31,7 @@ class UserInfoFragment : Fragment() {
         val btnSubmit: Button = rootView.findViewById(R.id.btnSubmit)
         btnSubmit.setOnClickListener {
             viewModel.setPersonInfoClickListener(etName, etFamily, etPatronymic)
-            //FragmentUtil.replace(activity!!.supportFragmentManager, R.id.content, CouponFragment.newInstance())
+            FragmentUtil.replace(activity!!.supportFragmentManager, R.id.content, CouponsFragment.newInstance())
         }
 
 

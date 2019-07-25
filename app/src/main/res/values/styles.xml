@@ -16,7 +16,7 @@
             @color/titleColor
         </item>
         <item name="android:fontFamily">
-            @font/montserratblack
+            @font/montserratlight
         </item>
     </style>
 
@@ -38,6 +38,19 @@
         </item>
         <item name="android:textColor">
             @color/etTextColor
+        </item>
+
+    </style>
+
+    <style name="otherText">
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">
+            @color/titleColor
+        </item>
+        <item name="android:fontFamily">
+            @font/montserratlight
         </item>
     </style>
 

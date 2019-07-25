@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="328dp"
+        android:layout_marginStart="17dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_background"
+        android:elevation="10dp">
+
+
+    <TextView
+            android:id="@+id/tvCouponNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="№ 537 739"
+            style="@style/title_text"
+            app:layout_constraintStart_toEndOf="@+id/tvDate"
+            android:textSize="25sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/tvTime"
+            tools:text="9:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/otherText"
+            app:layout_constraintStart_toEndOf="@+id/tvDate"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <TextView
+            android:id="@+id/tvDirection"
+            tools:text="Неврология"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/otherText"
+            app:layout_constraintStart_toEndOf="@+id/tvDate"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/tvDate"
+            tools:text="17"
+            android:textSize="60sp"
+            android:textColor="@color/titleColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="25dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/tvStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="NEW"
+            android:textColor="#3DDF4E"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/tvDate"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvDirection"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:id="@+id/tvWaitTalone"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            style="@style/otherText"
+            android:visibility="gone"
+            android:text="В ожидании талона"
+            app:layout_constraintStart_toEndOf="@+id/tvDate"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
