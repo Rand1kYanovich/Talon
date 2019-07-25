@@ -22,7 +22,7 @@
 
     <style name="btn_text">
         <item name="android:textSize">
-            26sp
+            25sp
         </item>
         <item name="android:textColor">
             @color/btnTextColor
@@ -39,7 +39,9 @@
         <item name="android:textColor">
             @color/etTextColor
         </item>
-
+        <item name="android:fontFamily">
+            @font/montserratlight
+        </item>
     </style>
 
     <style name="otherText">

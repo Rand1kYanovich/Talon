@@ -9,4 +9,9 @@
     <string name="user_info_et_family">Фамилия</string>
     <string name="user_info_et_patronymic">Отчество</string>
     <string name="user_info_btn_text">Войти</string>
+    <string name="add_coupon_question">В какие дни Вы свободны??</string>
+    <string name="add_coupon_title">Отследить талон</string>
+    <string name="coupon_item_in_wait">В ожидании талона</string>
+    <string name="coupons_title">Ваши талоны</string>
+    <string name="coupons_btn_text">Начать отслеживать прием \n к врачу</string>
 </resources>

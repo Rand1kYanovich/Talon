@@ -12,7 +12,7 @@ class DataViewHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
     val doctor: TextView = itemView.findViewById(R.id.tvDate)
     val date:TextView = itemView.findViewById(R.id.tvDate)
     val store:TextView = itemView.findViewById(R.id.tvStore)
-    val waitTalone:TextView = itemView.findViewById(R.id.tvWaitTalone)
+    val waitTalon:TextView = itemView.findViewById(R.id.tvWaitTalon)
 
 
 }

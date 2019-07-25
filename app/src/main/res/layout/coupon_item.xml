@@ -72,12 +72,12 @@
             app:layout_constraintEnd_toStartOf="@+id/tvDirection"
             app:layout_constraintStart_toStartOf="parent"/>
     <TextView
-            android:id="@+id/tvWaitTalone"
+            android:id="@+id/tvWaitTalon"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             style="@style/otherText"
             android:visibility="gone"
-            android:text="В ожидании талона"
+            android:text="@string/coupon_item_in_wait"
             app:layout_constraintStart_toEndOf="@+id/tvDate"
             android:layout_marginStart="30dp"
             android:layout_marginTop="20dp"
