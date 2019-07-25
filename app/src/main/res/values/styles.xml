@@ -16,7 +16,7 @@
             @color/titleColor
         </item>
         <item name="android:fontFamily">
-            @font/montserratlight
+            @font/montserratbold
         </item>
     </style>
 
@@ -28,7 +28,7 @@
             @color/btnTextColor
         </item>
         <item name="android:fontFamily">
-            @font/montserratlight
+            @font/montserratmedium
         </item>
     </style>
 
@@ -40,7 +40,7 @@
             @color/etTextColor
         </item>
         <item name="android:fontFamily">
-            @font/montserratlight
+            @font/montserratmedium
         </item>
     </style>
 
