@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
+import com.google.firebase.FirebaseApp
 import ru.codeoverflow.talon.R
 import ru.codeoverflow.talon.util.FragmentUtil
 import ru.codeoverflow.talon.viewmodel.RegistrationViewModel
