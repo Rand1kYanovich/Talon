@@ -8,9 +8,16 @@ import android.view.ViewGroup
 import android.widget.CalendarView
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProviders
+import kotlinx.android.synthetic.main.add_coupon_fragment.*
 import ru.codeoverflow.talon.R
+import ru.codeoverflow.talon.viewmodel.CouponViewModel
 
 class AddCouponFragment : Fragment() {
+
+    private val viewModelCoupon: CouponViewModel by lazy {
+        ViewModelProviders.of(activity!!).get(CouponViewModel::class.java)
+    }
 
     private var doctor = ""
     private var direction = ""
@@ -25,22 +32,11 @@ class AddCouponFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val rootView: View = inflater.inflate(R.layout.add_coupon_fragment, container, false)
-
-        val spinnerDoctor: Spinner = rootView.findViewById(R.id.spinnerDoctor)
-        val spinnerDirection: Spinner = rootView.findViewById(R.id.spinnerDirection)
-        val calendarView: CalendarView = rootView.findViewById(R.id.calendarView)
-
-
-
         calendarView.setOnDateChangeListener { view, year, month, dayOfMonth ->
             val yearE = year + 1
             date = "$yearE|$month|$dayOfMonth"
             Log.e("Date", date)
         }
-
-
-
-
         return rootView
     }
 }
